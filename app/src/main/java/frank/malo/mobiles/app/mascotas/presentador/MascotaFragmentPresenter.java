@@ -1,16 +1,7 @@
 package frank.malo.mobiles.app.mascotas.presentador;
 
 import android.content.Context;
-import android.content.Intent;
-import android.support.v4.app.Fragment;
-import android.view.View;
-import android.widget.ImageView;
-
 import java.util.ArrayList;
-
-import frank.malo.mobiles.app.mascotas.R;
-import frank.malo.mobiles.app.mascotas.activities.MascotasDummy;
-import frank.malo.mobiles.app.mascotas.db.MascotaBD;
 import frank.malo.mobiles.app.mascotas.fragments.views.IMascotaFragmentView;
 import frank.malo.mobiles.app.mascotas.pojo.Mascota;
 
@@ -22,7 +13,6 @@ public class MascotaFragmentPresenter implements IMascotaFragmentPresenter {
 
     private final IMascotaFragmentView iMascotaFragmentView;
     private final Context context;
-    private MascotaBD mascotasBd;
     private ArrayList<Mascota> mascotas;
 
     public MascotaFragmentPresenter(final IMascotaFragmentView iMascotaFragmentView, Context context) {
@@ -31,7 +21,7 @@ public class MascotaFragmentPresenter implements IMascotaFragmentPresenter {
         obtenerMascotas();
         mostrarMascotasRV();
 
-        ImageView img5Stars = (ImageView) ((Fragment)iMascotaFragmentView).getActivity().findViewById(R.id.img5Stars);
+        /*ImageView img5Stars = (ImageView) ((Fragment)iMascotaFragmentView).getActivity().findViewById(R.id.img5Stars);
         img5Stars.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
@@ -42,13 +32,12 @@ public class MascotaFragmentPresenter implements IMascotaFragmentPresenter {
                 }
                 ((Fragment)iMascotaFragmentView).startActivity(intent);
             }
-        });
+        });*/
     }
 
     @Override
     public void obtenerMascotas() {
-        mascotasBd = new MascotaBD(this.context);
-        mascotas = mascotasBd.obtenerTodasMascotas();
+
     }
 
     @Override
@@ -57,9 +46,9 @@ public class MascotaFragmentPresenter implements IMascotaFragmentPresenter {
         iMascotaFragmentView.genearLinearLayoutVertical();
     }
 
-    @Override
+    /*@Override
     public ArrayList<Mascota> obtener5MejoresMascotas() {
         mascotasBd = new MascotaBD(this.context);
         return mascotasBd.obtener5MejoresMascotas();
-    }
+    }*/
 }

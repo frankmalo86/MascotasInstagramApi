@@ -10,21 +10,15 @@ public class Mascota implements Serializable{
 
     private int id;
     private String nombre;
-    private int foto;
+    private String  urlFoto;
     private int puntaje ;
 
     public Mascota() {}
 
-    public Mascota(int foto, String nombre) {
+    public Mascota(String nombre, String urlFoto, int puntaje) {
         this.nombre = nombre;
-        this.foto = foto;
-        this.puntaje = 0;  //valor inicial cuando se instancia la clase
-    }
-
-    public Mascota(int foto, String nombre, int puntaje) {
-        this.nombre = nombre;
-        this.foto = foto;
-        this.puntaje = puntaje;  //valor inicial cuando se instancia la clase
+        this.urlFoto = urlFoto;
+        this.puntaje = puntaje;
     }
 
     public int getId() {
@@ -43,12 +37,12 @@ public class Mascota implements Serializable{
         this.nombre = nombre;
     }
 
-    public int getFoto() {
-        return foto;
+    public String getUrlFoto() {
+        return urlFoto;
     }
 
-    public void setFoto(int foto) {
-        this.foto = foto;
+    public void setUrlFoto(String urlFoto) {
+        this.urlFoto = urlFoto;
     }
 
     public int getPuntaje() {

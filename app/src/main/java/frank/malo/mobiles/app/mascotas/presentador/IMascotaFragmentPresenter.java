@@ -14,6 +14,6 @@ public interface IMascotaFragmentPresenter {
 
     public void mostrarMascotasRV();
 
-    public ArrayList<Mascota> obtener5MejoresMascotas();
+    //public ArrayList<Mascota> obtener5MejoresMascotas();
 
 }
