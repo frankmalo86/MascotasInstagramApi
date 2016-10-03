@@ -12,15 +12,16 @@ public class Mascota implements Serializable{
     private String nombre;
     private String  urlFoto;
     private int puntaje ;
+    private String fecha;
 
     public Mascota() {}
 
-    public Mascota(String nombre, String urlFoto, int puntaje) {
+    public Mascota(String nombre, String urlFoto, int puntaje, String fecha) {
         this.nombre = nombre;
         this.urlFoto = urlFoto;
         this.puntaje = puntaje;
+        this.fecha = fecha;
     }
-
 
     public String getId() {
         return id;
@@ -52,5 +53,13 @@ public class Mascota implements Serializable{
 
     public void setPuntaje(int puntaje) {
         this.puntaje = puntaje;
+    }
+
+    public String getFecha() {
+        return fecha;
+    }
+
+    public void setFecha(String fecha) {
+        this.fecha = fecha;
     }
 }

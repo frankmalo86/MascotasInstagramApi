@@ -16,8 +16,10 @@ import java.util.Comparator;
 
 import frank.malo.mobiles.app.mascotas.R;
 import frank.malo.mobiles.app.mascotas.activities.Mascotas5Estrellas;
+import frank.malo.mobiles.app.mascotas.db.UsuarioBD;
 import frank.malo.mobiles.app.mascotas.fragments.views.IMascotaFragmentView;
 import frank.malo.mobiles.app.mascotas.pojo.Mascota;
+import frank.malo.mobiles.app.mascotas.pojo.Usuario;
 import frank.malo.mobiles.app.mascotas.restApi.EndPointApi;
 import frank.malo.mobiles.app.mascotas.restApi.adapter.RestInstagramApiAdapter;
 import frank.malo.mobiles.app.mascotas.restApi.model.MediaResponse;
@@ -33,7 +35,7 @@ public class MascotaFragmentPresenter implements IMascotaFragmentPresenter {
 
     private final IMascotaFragmentView iMascotaFragmentView;
     private final Context context;
-    private ArrayList<Mascota> mascotasRecientesUsuario;
+    private ArrayList<Mascota> mascotasRecientesUsuario = new ArrayList<Mascota>();
 
     public MascotaFragmentPresenter(final IMascotaFragmentView iMascotaFragmentView, Context context) {
         this.iMascotaFragmentView = iMascotaFragmentView;
@@ -75,23 +77,31 @@ public class MascotaFragmentPresenter implements IMascotaFragmentPresenter {
         Gson gsonMediaRecent = restInstagramApiAdapter.construyeGsonDeserializadorMediaRecent();
         EndPointApi endPointApi = restInstagramApiAdapter.establecerConexionRestApiInstagram(gsonMediaRecent);
 
-        Call<MediaResponse> mascotaResponseCall = endPointApi.getRecentMediaUser("204246429");
-        //controlamos el resultado de la respuesta
-        mascotaResponseCall.enqueue(new Callback<MediaResponse>() {
-            @Override
-            public void onResponse(Call<MediaResponse> call, Response<MediaResponse> response) {
-                MediaResponse contactoResponse = response.body();
-                mascotasRecientesUsuario = contactoResponse.getMascotas();
-                mostrarMascotasRV();
-            }
+        UsuarioBD usuarioBD = new UsuarioBD(this.context);
+        ArrayList<Usuario> usuarios = usuarioBD.obtenerTodosUsuarios();
 
-            @Override
-            public void onFailure(Call<MediaResponse> call, Throwable t) {
-                Toast.makeText(context, "Problemas en la conexión al servicio intenta de nuevo", Toast.LENGTH_LONG).show();
-                t.printStackTrace();
-                Log.e("FALLO LA CONEXIÓN", t.toString());
-            }
-        });
+        for (Usuario usuarioActual : usuarios) {
+
+            Call<MediaResponse> mascotaResponseCall = endPointApi.getRecentMediaUser(usuarioActual.getId());
+            //controlamos el resultado de la respuesta
+            mascotaResponseCall.enqueue(new Callback<MediaResponse>() {
+                @Override
+                public void onResponse(Call<MediaResponse> call, Response<MediaResponse> response) {
+                    MediaResponse contactoResponse = response.body();
+                    mascotasRecientesUsuario.addAll(contactoResponse.getMascotas());
+                    //esta linea de código deberia ser coordinada, no estar ejecutandose por cada iteración
+                    mascotasRecientesUsuario = ordenarPorFechaMedia(mascotasRecientesUsuario);
+                    mostrarMascotasRV();
+                }
+
+                @Override
+                public void onFailure(Call<MediaResponse> call, Throwable t) {
+                    Toast.makeText(context, "Problemas en la conexión al servicio intenta de nuevo", Toast.LENGTH_LONG).show();
+                    t.printStackTrace();
+                    Log.e("FALLO LA CONEXIÓN", t.toString());
+                }
+            });
+        }
     }
 
     @Override
@@ -100,5 +110,17 @@ public class MascotaFragmentPresenter implements IMascotaFragmentPresenter {
         iMascotaFragmentView.genearLinearLayoutVertical();
     }
 
+    private ArrayList<Mascota> ordenarPorFechaMedia(ArrayList<Mascota> mascotas){
+        Collections.sort(mascotas, new Comparator<Mascota>() {
+            @Override
+            public int compare(Mascota mascota1, Mascota mascota2) {
+
+                if(Long.valueOf(mascota1.getFecha()) == Long.valueOf(mascota2.getFecha())) return 0;
+                else if (Long.valueOf(mascota1.getFecha()) > Long.valueOf(mascota2.getFecha())) return -1;
+                else return 1;
+            }
+        });
+        return mascotas;
+    }
 
 }

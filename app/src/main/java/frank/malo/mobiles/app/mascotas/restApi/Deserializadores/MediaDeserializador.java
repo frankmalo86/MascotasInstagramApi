@@ -37,6 +37,7 @@ public class MediaDeserializador implements JsonDeserializer<MediaResponse> {
             JsonObject userJson = contactoResponseDataObject.getAsJsonObject(JsonKeys.USER);
             String id = userJson.get(JsonKeys.USER_ID).getAsString();
             String nombre = userJson.get(JsonKeys.USER_FULLNAME).getAsString();
+            String created_time = contactoResponseDataObject.get(JsonKeys.MEDIA_CREATED_TIME).getAsString();
 
             JsonObject imagesJson = contactoResponseDataObject.getAsJsonObject(JsonKeys.MEDIA_IMAGES);
             JsonObject stdResolutionJson = imagesJson.getAsJsonObject(JsonKeys.MEDIA_LOW_RESOLUTION);
@@ -50,6 +51,7 @@ public class MediaDeserializador implements JsonDeserializer<MediaResponse> {
             mascotaActual.setNombre(nombre);
             mascotaActual.setUrlFoto(urlFoto);
             mascotaActual.setPuntaje(puntaje);
+            mascotaActual.setFecha(created_time);
 
             mascotas.add(mascotaActual);
         }
