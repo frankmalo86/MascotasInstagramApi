@@ -9,11 +9,12 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.squareup.picasso.Picasso;
+
 import java.util.ArrayList;
 
 import frank.malo.mobiles.app.mascotas.activities.MainActivity;
 import frank.malo.mobiles.app.mascotas.R;
-import frank.malo.mobiles.app.mascotas.db.MascotaBD;
 import frank.malo.mobiles.app.mascotas.pojo.Mascota;
 
 /**
@@ -42,23 +43,11 @@ public class MascotaAdaptador extends RecyclerView.Adapter<MascotaAdaptador.Masc
     public void onBindViewHolder(final MascotaAdaptador.MascotaViewHolder mascotaViewHolder, int position) {
 
         final Mascota mascota = mascotas.get(position);
-        mascotaViewHolder.imgFotoCV.setImageResource(mascota.getFoto());
-        mascotaViewHolder.tvNombreCV.setText(mascota.getNombre());
+        Picasso.with(activity)
+                .load(mascota.getUrlFoto())
+                .placeholder(R.drawable.ic_dog)
+                .into(mascotaViewHolder.imgFotoCV);
         mascotaViewHolder.tvRatingCV.setText(String.valueOf(mascota.getPuntaje()));
-
-        //valido que el evento del activado de la imagen para el puntaje solo esté disponible para la actividad principal
-        if (MainActivity.class == activity.getClass()) {
-            mascotaViewHolder.imgHuesoBlanco.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    Toast.makeText(activity, mascota.getNombre(), Toast.LENGTH_SHORT).show();
-                    //aumento en uno el valor que tiene la mascota.
-                    MascotaBD mascotaBD = new MascotaBD(activity);
-                    mascotaBD.puntuarMascota(mascota);
-                    mascotaViewHolder.tvRatingCV.setText(String.valueOf(mascota.getPuntaje()));
-                }
-            });
-        }
     }
 
     //el count
@@ -69,14 +58,12 @@ public class MascotaAdaptador extends RecyclerView.Adapter<MascotaAdaptador.Masc
 
     public static class MascotaViewHolder extends RecyclerView.ViewHolder{
         private ImageView imgFotoCV;
-        private TextView tvNombreCV;
         private ImageView imgHuesoBlanco;
         private TextView tvRatingCV;
 
         public MascotaViewHolder(View itemView) {
             super(itemView);
             imgFotoCV = (ImageView) itemView.findViewById(R.id.imgFotoCV);
-            tvNombreCV = (TextView) itemView.findViewById(R.id.tvNombreCV);
             imgHuesoBlanco = (ImageView) itemView.findViewById(R.id.imgHuesoBlanco);
             tvRatingCV = (TextView) itemView.findViewById(R.id.tvRatingCV);
         }

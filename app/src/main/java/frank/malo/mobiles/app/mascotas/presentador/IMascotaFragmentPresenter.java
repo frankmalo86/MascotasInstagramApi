@@ -10,10 +10,9 @@ import frank.malo.mobiles.app.mascotas.pojo.Mascota;
 
 public interface IMascotaFragmentPresenter {
 
-    public void obtenerMascotas();
+    public void obtenerMascotasRecientesUsuario();
 
     public void mostrarMascotasRV();
 
     //public ArrayList<Mascota> obtener5MejoresMascotas();
-
 }

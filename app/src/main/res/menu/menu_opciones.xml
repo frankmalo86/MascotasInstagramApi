@@ -10,4 +10,10 @@
     android:id="@+id/menu_acerca_de"
     android:orderInCategory="101"
     ></item>
+
+    <item
+        android:title="@string/texto_menu_configurar"
+        android:id="@+id/menu_configurar"
+        android:orderInCategory="102"
+        ></item>
 </menu>

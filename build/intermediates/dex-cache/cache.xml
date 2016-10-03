@@ -2,13 +2,22 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="C:\Users\Frank\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        is-multidex="false"
+        jar="C:\Users\Frank\AndroidStudioProjects\MascotasInstagramApi\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="C:\Users\Frank\AndroidStudioProjects\Mascotas3\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_890c8c788d5fe9b58a6c2b53859bce400b48e08c\classes.dex" />
+        sha1="d851dd18308cac920d1406a3210833ce49f8ae50">
+        <dex dex="C:\Users\Frank\AndroidStudioProjects\MascotasInstagramApi\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_77e88b0c7edc0eb4042b68c94f5acad94191e688.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Frank\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.8.0\5ea7af56cc7c567ed9856d99efb30740e9b17ff\okio-1.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="C:\Users\Frank\AndroidStudioProjects\MascotasInstagramApi\app\build\intermediates\pre-dexed\debug\okio-1.8.0_0f34441f9c6bd1e4afc2c901eef65cb024dec0b2.jar" />
     </item>
     <item
         is-multidex="false"
@@ -20,31 +29,31 @@
         <dex dex="C:\Users\Frank\AndroidStudioProjects\MascotasInstagramApi\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_f39dc53aa8bef2bc6d8cd862324cb5711794e0f5.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Frank\AndroidStudioProjects\Mascotas3\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        is-multidex="false"
+        jar="C:\Users\Frank\.gradle\caches\modules-2\files-2.1\com.sun.mail\android-activation\1.5.5\5442d5e05808145434b750c9f8a0c3f537383c5a\android-activation-1.5.5.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="C:\Users\Frank\AndroidStudioProjects\Mascotas3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_01804173ea3fb46cbdfea58b1e3e49c7a1a46405\classes.dex" />
+        sha1="5442d5e05808145434b750c9f8a0c3f537383c5a">
+        <dex dex="C:\Users\Frank\AndroidStudioProjects\MascotasInstagramApi\app\build\intermediates\pre-dexed\debug\android-activation-1.5.5_9421e9cf94b18cccdbf105b19e8df1fa4a24bd0b.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Frank\AndroidStudioProjects\Mascotas3\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        is-multidex="false"
+        jar="C:\Users\Frank\AndroidStudioProjects\MascotasInstagramApi\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="C:\Users\Frank\AndroidStudioProjects\Mascotas3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_21865808dfe8f34ddac09cb64c350705e2de4578\classes.dex" />
+        sha1="c5e6490573cd2cc8018417f60ddd251138b6ed61">
+        <dex dex="C:\Users\Frank\AndroidStudioProjects\MascotasInstagramApi\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-24.2.1_7cffd78e95ab979740a79b32485d34cd14cd9d6f.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Frank\AndroidStudioProjects\Mascotas3\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        is-multidex="false"
+        jar="C:\Users\Frank\AndroidStudioProjects\MascotasInstagramApi\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="C:\Users\Frank\AndroidStudioProjects\Mascotas3\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_bcb14b2ac994a1b05276cf945595844e394638ab\classes.dex" />
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\Frank\AndroidStudioProjects\MascotasInstagramApi\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.1_4311a139e97464148a5b72a48c940cd2e32ac429.jar" />
     </item>
     <item
         is-multidex="false"
@@ -56,21 +65,12 @@
         <dex dex="C:\Users\Frank\AndroidStudioProjects\MascotasInstagramApi\app\build\intermediates\pre-dexed\debug\retrofit-2.1.0_790220e22811a900466c7e04ea5ffa136764086e.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Frank\AndroidStudioProjects\Mascotas3\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
-        <dex dex="C:\Users\Frank\AndroidStudioProjects\Mascotas3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.1_071c09b0dad6a4e98dae8bf8b2ac1b9360162ea0\classes.dex" />
-    </item>
-    <item
         is-multidex="false"
         jar="C:\Users\Frank\AndroidStudioProjects\MascotasInstagramApi\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="ad562b037ca6611e0438644799d17b190a47f69c">
+        sha1="fcdb42f577e8428bb203781faf368d045cf74996">
         <dex dex="C:\Users\Frank\AndroidStudioProjects\MascotasInstagramApi\app\build\intermediates\pre-dexed\debug\instant-run_39a6db0186841a01d0249f14edcb0b658621f452.jar" />
     </item>
     <item
@@ -128,24 +128,6 @@
         <dex dex="C:\Users\Frank\AndroidStudioProjects\MascotasInstagramApi\app\build\intermediates\pre-dexed\debug\converter-gson-2.1.0_94810cf2b43002be4341238000cd03cced8499d1.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Frank\AndroidStudioProjects\Mascotas3\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\Frank\AndroidStudioProjects\Mascotas3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_86db0c8eca3adddbd26766bf3960140623155dab\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Frank\.gradle\caches\modules-2\files-2.1\com.sun.mail\android-mail\1.5.5\53a2f927b235acb565dbe9314ececfb7e6d43020\android-mail-1.5.5.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="53a2f927b235acb565dbe9314ececfb7e6d43020">
-        <dex dex="C:\Users\Frank\AndroidStudioProjects\Mascotas3\app\build\intermediates\transforms\dex\debug\folders\1000\10\android-mail-1.5.5_3a624f0c48d5ee4b585949d4a23a1c64e8d7c08f\classes.dex" />
-    </item>
-    <item
         is-multidex="false"
         jar="C:\Users\Frank\AndroidStudioProjects\MascotasInstagramApi\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
         jumboMode="true"
@@ -155,13 +137,40 @@
         <dex dex="C:\Users\Frank\AndroidStudioProjects\MascotasInstagramApi\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.1_de586dc3cc664f2a3e47eeef23179b3facf69b99.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Frank\AndroidStudioProjects\Mascotas3\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        is-multidex="false"
+        jar="C:\Users\Frank\AndroidStudioProjects\MascotasInstagramApi\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="7a10c9adb93ff09eb4ac97690d952490d38db015">
-        <dex dex="C:\Users\Frank\AndroidStudioProjects\Mascotas3\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_78f765cdd542166b2d4c02e3f898e5cae4429840\classes.dex" />
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\Frank\AndroidStudioProjects\MascotasInstagramApi\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_3b584dc06f32c2eb2555a572435fb06865f6f9e3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Frank\AndroidStudioProjects\MascotasInstagramApi\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Frank\AndroidStudioProjects\MascotasInstagramApi\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.1_60b6839f254fde7e5ae32ecb2f3eba395a425edd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Frank\AndroidStudioProjects\MascotasInstagramApi\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\Frank\AndroidStudioProjects\MascotasInstagramApi\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.1_d841c8e4e7851486578bd29f8c8541f7963ea915.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Frank\AndroidStudioProjects\MascotasInstagramApi\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\Frank\AndroidStudioProjects\MascotasInstagramApi\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_8e35184a08114ca92ca07529886cda347ed375b7.jar" />
     </item>
     <item
         is-multidex="false"
@@ -191,13 +200,22 @@
         <dex dex="C:\Users\Frank\AndroidStudioProjects\MascotasInstagramApi\app\build\intermediates\pre-dexed\debug\gson-2.7_8f0d63eb2e56de75a9341726252856fd5e12bb48.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Frank\AndroidStudioProjects\Mascotas3\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.2.1\jars\classes.jar"
+        is-multidex="false"
+        jar="C:\Users\Frank\AndroidStudioProjects\MascotasInstagramApi\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="c5e6490573cd2cc8018417f60ddd251138b6ed61">
-        <dex dex="C:\Users\Frank\AndroidStudioProjects\Mascotas3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-24.2.1_9791d471b22fc770a4be51fc6b05c3f272b3b74b\classes.dex" />
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="C:\Users\Frank\AndroidStudioProjects\MascotasInstagramApi\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.2.1_ccf86ffd55cab40c08bb0ec7ad10b932e29f9c6e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Frank\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\Frank\AndroidStudioProjects\MascotasInstagramApi\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_f67b09d389b0bbd83482d0db9c65f57c04cf94bd.jar" />
     </item>
     <item
         is-multidex="false"
@@ -218,15 +236,6 @@
         <dex dex="C:\Users\Frank\AndroidStudioProjects\MascotasInstagramApi\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.1_b7000f9dc01a4d097a453103135f9e243a1ad860.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Frank\AndroidStudioProjects\Mascotas3\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="C:\Users\Frank\AndroidStudioProjects\Mascotas3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_0fc91251baf629de3ef1943094fd2f7953058e3c\classes.dex" />
-    </item>
-    <item
         is-multidex="false"
         jar="C:\Users\Frank\AndroidStudioProjects\MascotasInstagramApi\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
         jumboMode="true"
@@ -245,213 +254,6 @@
         <dex dex="C:\Users\Frank\AndroidStudioProjects\MascotasInstagramApi\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.1_068a0d2fdaf092b8e352c78b30b94dead8b0df39.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Frank\AndroidStudioProjects\Mascotas3\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="C:\Users\Frank\AndroidStudioProjects\Mascotas3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_3b989034a5284d728c32e309ebc842085a454f15\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Frank\AndroidStudioProjects\Mascotas3\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="C:\Users\Frank\AndroidStudioProjects\Mascotas3\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_d9ab192dfc5dc8572f5f4ee62fcac214134a8206\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Frank\AndroidStudioProjects\Mascotas3\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="C:\Users\Frank\AndroidStudioProjects\Mascotas3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_627e635a3e7aaa81a3d18f7b6219e2b8cb04752e\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Frank\AndroidStudioProjects\MascotasInstagramApi\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="f6c113cf3f684d5361929c7f2f5c929b7e6b3e2d">
-        <dex dex="C:\Users\Frank\AndroidStudioProjects\MascotasInstagramApi\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_77e88b0c7edc0eb4042b68c94f5acad94191e688.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Frank\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.8.0\5ea7af56cc7c567ed9856d99efb30740e9b17ff\okio-1.8.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
-        <dex dex="C:\Users\Frank\AndroidStudioProjects\MascotasInstagramApi\app\build\intermediates\pre-dexed\debug\okio-1.8.0_0f34441f9c6bd1e4afc2c901eef65cb024dec0b2.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Frank\AndroidStudioProjects\Mascotas3\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="C:\Users\Frank\AndroidStudioProjects\Mascotas3\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_310c484cf00b23d31701c5b408e51552236f87f8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Frank\AndroidStudioProjects\Mascotas3\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="C:\Users\Frank\AndroidStudioProjects\Mascotas3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_3246e5f7163354c11ee8a8fff23213bbc7e36dbb\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Frank\AndroidStudioProjects\Mascotas3\app\build\intermediates\exploded-aar\com.mikhaellopez\circularimageview\3.0.2\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="a8340f8c17337c864648c13abe1416d34c80ec14">
-        <dex dex="C:\Users\Frank\AndroidStudioProjects\Mascotas3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mikhaellopez-circularimageview-3.0.2_f1f6517c41e45b5f54504d1a011054dce1b5758a\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Frank\.gradle\caches\modules-2\files-2.1\com.sun.mail\android-activation\1.5.5\5442d5e05808145434b750c9f8a0c3f537383c5a\android-activation-1.5.5.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="5442d5e05808145434b750c9f8a0c3f537383c5a">
-        <dex dex="C:\Users\Frank\AndroidStudioProjects\MascotasInstagramApi\app\build\intermediates\pre-dexed\debug\android-activation-1.5.5_9421e9cf94b18cccdbf105b19e8df1fa4a24bd0b.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Frank\.gradle\caches\modules-2\files-2.1\com.sun.mail\android-activation\1.5.5\5442d5e05808145434b750c9f8a0c3f537383c5a\android-activation-1.5.5.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="5442d5e05808145434b750c9f8a0c3f537383c5a">
-        <dex dex="C:\Users\Frank\AndroidStudioProjects\Mascotas3\app\build\intermediates\transforms\dex\debug\folders\1000\10\android-activation-1.5.5_9421e9cf94b18cccdbf105b19e8df1fa4a24bd0b\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Frank\AndroidStudioProjects\MascotasInstagramApi\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="c5e6490573cd2cc8018417f60ddd251138b6ed61">
-        <dex dex="C:\Users\Frank\AndroidStudioProjects\MascotasInstagramApi\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-24.2.1_7cffd78e95ab979740a79b32485d34cd14cd9d6f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Frank\AndroidStudioProjects\MascotasInstagramApi\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="C:\Users\Frank\AndroidStudioProjects\MascotasInstagramApi\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.1_4311a139e97464148a5b72a48c940cd2e32ac429.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Frank\AndroidStudioProjects\MascotasInstagramApi\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="C:\Users\Frank\AndroidStudioProjects\MascotasInstagramApi\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_3b584dc06f32c2eb2555a572435fb06865f6f9e3.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Frank\AndroidStudioProjects\Mascotas3\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="C:\Users\Frank\AndroidStudioProjects\Mascotas3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_dfd4ca0b6651662dd6e5193152cc3aa4366bedc6\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Frank\AndroidStudioProjects\MascotasInstagramApi\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\Frank\AndroidStudioProjects\MascotasInstagramApi\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.1_60b6839f254fde7e5ae32ecb2f3eba395a425edd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Frank\AndroidStudioProjects\MascotasInstagramApi\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="C:\Users\Frank\AndroidStudioProjects\MascotasInstagramApi\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.1_d841c8e4e7851486578bd29f8c8541f7963ea915.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Frank\AndroidStudioProjects\Mascotas3\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="C:\Users\Frank\AndroidStudioProjects\Mascotas3\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_b5389abb79d07464c5013402b7e74e729f8dc4da\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Frank\AndroidStudioProjects\Mascotas3\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
-        <dex dex="C:\Users\Frank\AndroidStudioProjects\Mascotas3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.1_14451dc78be193a444436bf166fb507088430479\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Frank\AndroidStudioProjects\MascotasInstagramApi\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="C:\Users\Frank\AndroidStudioProjects\MascotasInstagramApi\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_8e35184a08114ca92ca07529886cda347ed375b7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Frank\AndroidStudioProjects\MascotasInstagramApi\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
-        <dex dex="C:\Users\Frank\AndroidStudioProjects\MascotasInstagramApi\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.2.1_ccf86ffd55cab40c08bb0ec7ad10b932e29f9c6e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Frank\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="C:\Users\Frank\AndroidStudioProjects\MascotasInstagramApi\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_f67b09d389b0bbd83482d0db9c65f57c04cf94bd.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Frank\AndroidStudioProjects\Mascotas3\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="760c40da4689f3b93cbfce7a5f64350165462d0b">
-        <dex dex="C:\Users\Frank\AndroidStudioProjects\Mascotas3\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_57a050013c5982ea340f795de23df32cb9ccaaa2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Frank\AndroidStudioProjects\Mascotas3\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="C:\Users\Frank\AndroidStudioProjects\Mascotas3\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_6442babb1ea65f1270d6d63ba9ae97057e3f9105\classes.dex" />
-    </item>
-    <item
         is-multidex="false"
         jar="C:\Users\Frank\AndroidStudioProjects\MascotasInstagramApi\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="true"
@@ -459,15 +261,6 @@
         revision="24.0.2"
         sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
         <dex dex="C:\Users\Frank\AndroidStudioProjects\MascotasInstagramApi\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_3efc9808b4046549953c440202cac2f90fb56302.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Frank\AndroidStudioProjects\Mascotas3\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="C:\Users\Frank\AndroidStudioProjects\Mascotas3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_a34981e8d15d0f53f3331b37ae84e23ca157a97e\classes.dex" />
     </item>
 
 </items>

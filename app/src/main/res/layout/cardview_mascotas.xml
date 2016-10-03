@@ -14,10 +14,10 @@
         android:layout_gravity="center_horizontal">
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
             android:id="@+id/imgFotoCV"
-            android:src="@drawable/perro1"
+            android:src="@drawable/cat_footprint_filled_50"
             android:layout_gravity="center_horizontal"
             />
 
@@ -35,14 +35,6 @@
                 android:src="@drawable/dog_bone_50"
                 android:layout_marginRight="@dimen/layout_marginRight_hueso_blanco"/>
 
-            <TextView
-                android:id="@+id/tvNombreCV"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/nombre"
-                android:textSize="@dimen/cv_tamanio_nombre"
-                android:textStyle="bold"
-                android:textColor="@color/primaryText"/>
 
             <View
                 android:layout_width="0dp"

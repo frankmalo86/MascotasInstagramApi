@@ -14,13 +14,10 @@ import java.util.ArrayList;
 
 import frank.malo.mobiles.app.mascotas.R;
 import frank.malo.mobiles.app.mascotas.adaptadores.PageAdapter;
-import frank.malo.mobiles.app.mascotas.fragments.views.mascotaFragmentView;
-import frank.malo.mobiles.app.mascotas.fragments.perfilFragment;
+import frank.malo.mobiles.app.mascotas.fragments.views.MascotaFragmentView;
+import frank.malo.mobiles.app.mascotas.fragments.views.PerfilMascotaFragmentView;
 
 public class MainActivity extends AppCompatActivity {
-
-
-
 
     private Toolbar toolbar;
     private TabLayout tabLayout;
@@ -67,6 +64,10 @@ public class MainActivity extends AppCompatActivity {
                 Intent intentAcercaDe = new Intent(this, AcercaDeActivity.class);
                 startActivity(intentAcercaDe);
                 break;
+            case R.id.menu_configurar:
+                Intent intentConfiguracion = new Intent(this, ConfiguracionActivity.class);
+                startActivity(intentConfiguracion);
+                break;
         }
         return super.onOptionsItemSelected(item);
     }
@@ -75,8 +76,8 @@ public class MainActivity extends AppCompatActivity {
     /*****************************************************************************/
     private ArrayList<Fragment> agregarFragments(){
         ArrayList<Fragment> fragments = new ArrayList<Fragment>();
-        fragments.add(new mascotaFragmentView());
-        fragments.add(new perfilFragment());
+        fragments.add(new MascotaFragmentView());
+        fragments.add(new PerfilMascotaFragmentView());
         return fragments;
     }
 

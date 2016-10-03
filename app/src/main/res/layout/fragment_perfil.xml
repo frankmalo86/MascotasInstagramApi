@@ -5,21 +5,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".fragments.perfilFragment">
+    tools:context=".fragments.views.PerfilMascotaFragmentView">
 
     <com.mikhaellopez.circularimageview.CircularImageView
         android:layout_width="@dimen/ancho_imagen"
         android:layout_height="@dimen/alto_imagen"
-        android:src="@drawable/p12"
         app:civ_border_color="#EEEEEE"
         app:civ_border_width="4dp"
         app:civ_shadow="true"
         app:civ_shadow_radius="10"
         app:civ_shadow_color="#8BC34A"
-        android:layout_gravity="center_horizontal"/>
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/imgPerfil"
+        />
 
     <TextView
-        android:id="@+id/tvNombreMiMascota"
+        android:id="@+id/tvNombrePerfil"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/nombre_mi_mascota"

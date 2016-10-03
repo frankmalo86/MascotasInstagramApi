@@ -8,7 +8,7 @@ import java.io.Serializable;
 //serializo el objeto para mandarlo completo a la siguiente actividad
 public class Mascota implements Serializable{
 
-    private int id;
+    private String id;
     private String nombre;
     private String  urlFoto;
     private int puntaje ;
@@ -21,11 +21,12 @@ public class Mascota implements Serializable{
         this.puntaje = puntaje;
     }
 
-    public int getId() {
+
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 
